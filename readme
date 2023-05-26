@@ -1,1 +1,30 @@
 123
+<?php
+
+include("index.php");
+
+var_dump($posts[0]["password"]);
+
+Spwd=$posts[0]["password"];
+
+$id=md5($_POST['mail']);
+
+var_dump($id);
+
+if($pwd==$id){
+
+echo "yes";
+
+header("Location: http://localhost/HTML5/index.html");
+
+exit;
+
+echo"yes";
+
+}else{
+
+echo "<script>alert('bakeOK'); location.href='".$_SERVER["HTTP_REFERER"]."';</script>"; }
+
+echo"no";
+
+Sc="INSERT INTO VIP (name,
