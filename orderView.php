@@ -9,7 +9,7 @@
   </style>
 </head>
 <body>
-  <h2>訂購</h2>
+  <h2>HeartPanda訂餐試算</h2>
   <form action="orderController.php" method="POST">
     <div>
       <label for="name">訂購者：</label>
