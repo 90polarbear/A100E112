@@ -18,13 +18,13 @@
     <div>
       <div>
         <input type="radio" id="soy-milk" name="drink" value="soy-milk" required>
-        <label for="soy-milk">今天笑了梅（$70）</label>
-        <input type="checkbox" id="pearl" name="pearl" value="pearl">
-        <label for="pearl">加蜂蜜（$5）</label>
+        <label for="soy-milk">期末要歐趴（$100）</label>
       </div>
       <div>
         <input type="radio" id="milk-tea" name="drink" value="milk-tea" required>
-        <label for="milk-tea">期末要歐趴（$100）</label>
+        <label for="milk-tea">今天笑了梅（$70）</label>
+        <input type="checkbox" id="pearl" name="pearl" value="pearl">
+        <label for="pearl">加蜂蜜（$5）</label>        
       </div>
     </div>
     <div>
